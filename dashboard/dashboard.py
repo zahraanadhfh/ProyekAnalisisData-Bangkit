@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 def load_data():
-  data = pd.read_csv("C:\\Users\\User\\Documents\\college\\SEMESTER\\SEMESTER 6\\Bangkit\\submission\\dashboard\\hour.csv")
+  data = pd.read_csv("hour.csv")
   return data
 data = load_data()
 
